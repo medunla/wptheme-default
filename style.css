@@ -1,0 +1,91 @@
+/*
+Theme Name: Dasta
+Author: POGAAM STUDIO
+Author URI: http://www.pogaam.com
+Description: Custom wordpress theme.
+Version: 1.0
+Text Domain: dasta
+*/
+
+/* 1.0 - Logo */
+.custom-logo {
+	width: auto;
+	height: auto;
+	max-height: 100px;
+}
+.custom-logo-mobile {
+	display: none;
+}
+@media all and (max-width: 991px) {
+	.custom-logo {
+		max-height: 50px;
+	}
+	.custom-logo-desktop.has-mobile {
+		display: none;
+	}
+	.custom-logo-mobile {
+		display: inline;
+	}
+}
+
+/* 2.0 - Feature Image */
+.attachment-post-thumbnail {
+	height: auto;
+}
+
+/* 3.0 - Wysiwyg Editor */
+img[class*="wp-image-"] { /* supported in IE7+ */
+	height: auto;
+}
+.alignleft, img.alignleft {
+	margin-right: 1.5em;
+	display: inline;
+	float: left;
+}
+.alignright, img.alignright {
+	margin-left: 1.5em;
+	display: inline;
+	float: right;
+}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+}
+.alignnone, img.alignnone {
+	/* not sure about this one */
+}
+.wp-caption {
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+}
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5;
+	font-size: 0.625em;
+	margin: 0;
+}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+}
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+}

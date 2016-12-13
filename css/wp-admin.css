@@ -1,0 +1,11 @@
+/* ACF row */
+.acf-repeater.-row > table > tbody > tr > td, .acf-repeater.-block > table > tbody > tr > td {
+	border-bottom-width: 5px;
+	border-bottom-color: #ccc;
+}
+.acf-repeater .acf-row-handle.order + td {
+	border-left-width: 0;
+}
+.acf-repeater .acf-row-handle.remove {
+	border-left-width: 0;
+}
